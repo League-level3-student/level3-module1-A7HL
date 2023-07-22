@@ -19,6 +19,17 @@ public class MurderOfCrows {
         //    guilty Crow.
 
         // 2. How many innocent crows had to die before the diamond was found?
+    	
+    	for(int i = 0;i<theMurder.size();i++) {
+    		ArrayList<String> c = theMurder.get(i).getStomachContents();
+    		for(String str:c) {
+    			if(str.equals("diamond")	) {
+    				System.out.println(theMurder.get(i).getName()+" is the Guilty Crow!");
+    				
+    			}
+    		}
+    		
+    	}
 
     }
 
