@@ -30,7 +30,7 @@ public class RetroSun extends PApplet {
     @Override
     public void setup() {
         // 2. Set bgColor as the background color
-        
+        background.setColor(bgColor);
     }
 
     @Override
